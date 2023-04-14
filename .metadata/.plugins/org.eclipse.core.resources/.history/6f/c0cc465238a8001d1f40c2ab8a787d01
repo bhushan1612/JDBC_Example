@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+/**
+ * @author bhush
+ *
+ */
+module SpringIOC {
+	requires org.springframework.context;
+}

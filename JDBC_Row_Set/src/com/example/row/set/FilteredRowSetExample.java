@@ -1,0 +1,64 @@
+package com.example.row.set;
+
+
+import java.sql.*;
+
+import javax.sql.RowSet;
+import javax.sql.rowset.*;
+
+public class FilteredRowSetExample {
+
+    public static void main(String[] args) throws Exception {
+
+        // Create a Connection object to connect to the database
+    	Class.forName("oracle.jdbc.driver.OracleDriver");
+        String url = "jdbc:oracle:thin:@localhost:1521:xe";
+        String user = "HR";
+        String password = "oraclehr";
+        Connection conn = DriverManager.getConnection(url, user, password);
+
+        FilteredRowSet filteredRowSet = RowSetProvider.newFactory().createFilteredRowSet();
+        filteredRowSet.setCommand("SELECT * FROM EMPLOYEES");
+        filteredRowSet.execute(conn);
+
+        filteredRowSet.setFilter(new SalaryFilter(9000));
+        System.out.println("................");
+        while (filteredRowSet.next()) {
+        	    System.out.println("ID: " + filteredRowSet.getInt("EMPLOYEE_ID"));
+	            System.out.println("Name: " + filteredRowSet.getString("FIRST_NAME"));
+	            System.out.println("................");
+	            System.out.println("Email: " + filteredRowSet.getString("EMAIL"));
+	            System.out.println("Phone: " + filteredRowSet.getString("PHONE_NUMBER"));
+	            System.out.println("SALARY: " + filteredRowSet.getString("SALARY"));
+                System.out.println();
+        }
+        
+        System.out.println("................");
+        filteredRowSet.close();
+        conn.close();
+    }
+
+    private static class SalaryFilter implements Predicate {
+        private double salary;
+
+        public SalaryFilter(double salary) {
+            this.salary = salary;
+        }
+
+        public boolean evaluate(RowSet rs) {
+            try {
+                return rs.getDouble("salary") > salary;
+            } catch (SQLException ex) {
+                return false;
+            }
+        }
+
+        public boolean evaluate(Object value, int column) throws SQLException {
+            return false;
+        }
+
+        public boolean evaluate(Object value, String columnName) throws SQLException {
+            return false;
+        }
+    }
+}

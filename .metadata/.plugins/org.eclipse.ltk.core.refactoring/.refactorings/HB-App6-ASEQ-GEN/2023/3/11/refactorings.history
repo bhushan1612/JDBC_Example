@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.example.studgen.id.AccountNumberGenerator.java&apos; to &apos;StudentNumberGenerator.java&apos;&#x0D;&#x0A;- Original project: &apos;HB-App6-ASEQ-GEN&apos;&#x0D;&#x0A;- Original element: &apos;com.example.studgen.id.AccountNumberGenerator.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.example.studgen.id.StudentNumberGenerator.java&apos;" description="Rename compilation unit &apos;AccountNumberGenerator.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.example.studgen.id{AccountNumberGenerator.java" name="StudentNumberGenerator.java" references="false" stamp="1679124512570" version="1.0"/>
+</session>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/bhush/Desktop/JAVA/Extract java files/Hibernate jar_files/angus-activation-1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bhush/Desktop/JAVA/Extract java files/Hibernate jar_files/antlr4-runtime-4.10.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bhush/Desktop/JAVA/Extract java files/Hibernate jar_files/byte-buddy-1.12.18.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bhush/Desktop/JAVA/Extract java files/Hibernate jar_files/classmate-1.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bhush/Desktop/JAVA/Extract java files/Hibernate jar_files/hibernate-commons-annotations-6.0.6.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bhush/Desktop/JAVA/Extract java files/Hibernate jar_files/hibernate-core-6.2.0.CR3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bhush/Desktop/JAVA/Extract java files/Hibernate jar_files/istack-commons-runtime-4.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bhush/Desktop/JAVA/Extract java files/Hibernate jar_files/jakarta.activation-api-2.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bhush/Desktop/JAVA/Extract java files/Hibernate jar_files/jakarta.inject-api-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bhush/Desktop/JAVA/Extract java files/Hibernate jar_files/jakarta.persistence-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bhush/Desktop/JAVA/Extract java files/Hibernate jar_files/jakarta.transaction-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bhush/Desktop/JAVA/Extract java files/Hibernate jar_files/jakarta.xml.bind-api-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bhush/Desktop/JAVA/Extract java files/Hibernate jar_files/jandex-3.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bhush/Desktop/JAVA/Extract java files/Hibernate jar_files/jaxb-core-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bhush/Desktop/JAVA/Extract java files/Hibernate jar_files/jaxb-runtime-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bhush/Desktop/JAVA/Extract java files/Hibernate jar_files/jboss-logging-3.5.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bhush/Desktop/JAVA/Extract java files/Hibernate jar_files/txw2-4.0.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

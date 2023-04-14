@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\bhush\Desktop\JAVA\Spring-JDBC-App"/>
+			<item value="C:\Users\bhush\Desktop\JAVA\Spring-MVC-Register-Login"/>
+			<item value="C:\Users\bhush\Desktop\JAVA\Spring-MVC-JDBCTemplate"/>
+			<item value="C:\Users\bhush\Desktop\JAVA\Hibernate Programs"/>
+			<item value="C:\Users\bhush\Desktop\JAVA\Spring-MVC-Hibernate-CRUD-Web-App"/>
+			<item value="C:\Users\bhush\Desktop\JAVA\Spring-MVC-MultiView"/>
+			<item value="C:\Users\bhush\Desktop\JAVA\Spring-MVC"/>
+			<item value="C:\Users\bhush\Desktop\JAVA\HibernateEHCacheExample"/>
+			<item value="C:\Users\bhush\Desktop\JAVA\HB-App16-OSCache"/>
+			<item value="C:\Users\bhush\Desktop\JAVA\HB-App15-Criteria-Native-Named"/>
+			<item value="C:\Users\bhush\Desktop\JAVA\HB-App14-IS-A"/>
+			<item value="C:\Users\bhush\Desktop\JAVA\HB-App13-1-To-M"/>
+			<item value="C:\Users\bhush\Desktop\JAVA\HB-App12-M-To-1"/>
+			<item value="C:\Users\bhush\Desktop\JAVA\HB-App11-M-To-M"/>
+			<item value="C:\Users\bhush\Desktop\JAVA\HB-App10-1-To-1-PK-Bi"/>
+			<item value="C:\Users\bhush\Desktop\JAVA\HB-App9-1-to-1"/>
+			<item value="C:\Users\bhush\Desktop\JAVA\HB-App8-CPK-Ann-Config"/>
+			<item value="C:\Users\bhush\Desktop\JAVA\HB-App-CPK-Ann-Config"/>
+			<item value="C:\Users\bhush\Desktop\JAVA\HB-App7-CPK-XML-Config"/>
+			<item value="C:\Users\bhush\Desktop\JAVA\HB-App6-ASEQ-GEN"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="611"/>
+		<item key="DIALOG_Y_ORIGIN" value="299"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\bhush\Desktop\JAVA\Spring-MVC-Hibernate-CRUD-Web-App"/>
+			<item value="C:\Users\bhush\Downloads\SpringIOC"/>
+			<item value="C:\Users\bhush\Downloads\SpringIOC2"/>
+		</list>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="619"/>
+		<item key="DIALOG_Y_ORIGIN" value="121"/>
+		<item key="DIALOG_WIDTH" value="700"/>
+		<item key="DIALOG_HEIGHT" value="642"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

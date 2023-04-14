@@ -1,0 +1,48 @@
+package com.example.jdbc;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Properties;
+
+public class JDBCConnectionProperties {
+
+	public static void main(String[] args) throws ClassNotFoundException, IOException, SQLException {
+
+		/* Loading Properties file from FileInputStream */
+		FileInputStream fis = new FileInputStream("connection.properties");
+		Properties properties = new Properties();
+		properties.load(fis);
+
+		/* Assigning property file value to java variable */
+		String dname = (String) properties.get("Dname");
+		String url = (String) properties.get("URL");
+		String username = (String) properties.get("Uname");
+		String password = (String) properties.get("password");
+
+		/* Reading Query Property file */
+		FileInputStream query1 = new FileInputStream("query.properties");
+		Properties queryProperties = new Properties();
+		queryProperties.load(query1);
+
+		String query = (String) queryProperties.get("SELECT_EMPLOYEES");
+
+		/* type casted value passing to db connection class methods */
+		Class.forName(dname);
+		Connection con = DriverManager.getConnection(url, username, password);
+
+		/* Iterating record from Database table */
+		Statement stmt = con.createStatement();
+		ResultSet rs = stmt.executeQuery(query);
+		while (rs.next()) {
+			System.out.println(rs.getInt(1) + " " + rs.getString(2) + " " + rs.getString(3));
+		}
+		rs.close();
+		stmt.close();
+		con.close();
+	}
+}

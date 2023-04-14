@@ -1,0 +1,6 @@
+1674456821976	Move compilation unit
+1674456919481	Delete element
+1674622588192	Move 'Connection.Properties' to 'JDBC'
+1674622593211	Move 'query.properties' to 'JDBC'
+1674902764363	Rename type 'CreateDatabase'
+1674903338569	Rename type 'CreateTable'

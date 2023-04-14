@@ -1,0 +1,27 @@
+package com.example.jdbc.mysql;
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class StudentMarksSheet {
+
+	public static void main(String[] args) throws IOException, ClassNotFoundException, SQLException {
+		String url = "jdbc:mysql://localhost:3306/hr";
+		String username = "root";
+		String password = "mysql@12345";
+
+		String query = "CREATE TABLE student.studentmarkssheet(Student_RollNo int,FirstName varchar(100),Grade varchar(100), Total_Subject varchar(100),Final_Marks int)";
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		Connection con = DriverManager.getConnection(url, username, password);
+		Statement stmt = con.createStatement();
+		stmt.executeUpdate(query);
+
+		System.out.println("Table is  created....!");
+
+		con.close();
+
+	}
+
+}

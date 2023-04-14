@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;AccountNumberGenerator.java&apos; to &apos;HB-App6-ASEQ-GEN/src/com.example.studgen.id&apos;&#x0D;&#x0A;- Original project: &apos;HB-App5-GEN&apos;&#x0D;&#x0A;- Destination element: &apos;HB-App6-ASEQ-GEN/src/com.example.studgen.id&apos;&#x0D;&#x0A;- Original element: &apos;com.example.gen.id.AccountNumberGenerator.java&apos;" description="Copy compilation unit" destination="=HB-App6-ASEQ-GEN/src&lt;com.example.studgen.id" element1="/src&lt;com.example.gen.id{AccountNumberGenerator.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1679124482597" units="1" version="1.0"/>
+</session>
